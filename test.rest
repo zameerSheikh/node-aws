@@ -1,0 +1,9 @@
+GET http://localhost:4200/feed/posts
+
+###
+
+POST http://localhost:4200/feed/addPost
+Content-Type: application/x-www-form-urlencoded
+
+title="Seventh"
+&description="Seventh wonder"
