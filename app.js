@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const bodyParser = require('body-parser');
-const port = 5000;
+const port = 4200;
 const feedRoutes = require('./routes/feedRoute');
 
 app.use(bodyParser.urlencoded({extended: false}));
